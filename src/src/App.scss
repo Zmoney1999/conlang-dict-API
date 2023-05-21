@@ -1,0 +1,80 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 146, 73);
+    color: black;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+    background-color: rgb(221, 88, 0);
+    padding: 20px;
+
+}
+
+.body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+    font-family: 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.button-container {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+$primary: rgb(215, 63, 9);
+$dark: rgb(0, 0, 0);
+$light: rgb(255, 255, 255);
+
+$success: rgb(74, 119, 60);
+$info: rgb(0, 133, 155);
+
+/*
+.banner { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*/
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+* button {
+    border-radius: 4px !important;
+}
+
+.btn {
+    margin: 0.5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
